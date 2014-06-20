@@ -47,9 +47,9 @@ public class GameView extends View implements SensorEventListener{
         mPaint.setColor(Color.WHITE);
         
         /**加载小球资源**/
-        mbitmapBall = BitmapFactory.decodeResource(this.getResources(), R.drawable.ball);
-        /**加载游戏背景**/
-        mbitmapBg = BitmapFactory.decodeResource(this.getResources(), R.drawable.bg);
+//        mbitmapBall = BitmapFactory.decodeResource(this.getResources(), R.drawable.ball);
+//        /**加载游戏背景**/
+//        mbitmapBg = BitmapFactory.decodeResource(this.getResources(), R.drawable.bg);
         
         /**得到SensorManager对象**/
         mSensorMgr = (SensorManager) context.getSystemService(android.content.Context.SENSOR_SERVICE);   
